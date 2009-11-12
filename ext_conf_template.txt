@@ -1,0 +1,35 @@
+# cat=basic/prowl; type=string; label=Prowl API key: Up to 5 API keys separated by commas. Each API key is a 40-byte hexadecimal string. When using multiple API keys, you will only get a failure response if all API keys are not valid.
+apiKey = 
+
+# cat=basic/prowl; type=string; label=Prowl Provider key: Only necessary if you have been whitelisted.
+providerKey = 
+
+# cat=basic/prowl; type=string; label=Message format: Format of the message, available marker: ###MESSAGE###, ###DATE###
+messageFormat = ###MESSAGE### [###DATE###]
+
+# cat=basic/prowl; type=string; label=Date format: Format of the ###DATE### marker, syntax like strftime
+dateFormat = %d.%m.%Y %H:%M:%S
+
+# cat=basic/prowl; type=string; label=Application: the name for this application, used in the application field in request
+application = T3Prowl
+
+# cat=basic/prowl; type=string; label=Event: the name for the event field in request
+event = Event
+
+# cat=basic/prowl; type=options[very_low,moderate,normal,hight,emergency]; label= Default Priority: The default priority of messages
+defaultPriority = normal
+
+# cat=basic/prowl; type=boolean; label=Verify?: Verify API- and provider-key?
+verify = 0
+
+# cat=basic/prowl; type=boolean; label=Use proxy?: Use a proxy for curl request?
+useProxy = 0
+
+# cat=basic/prowl; type=string; label=Proxy: The HTTP proxy to tunnel requests through. 
+proxy = 
+
+# cat=basic/prowl; type=string; label=Proxy username: Username for the proxy
+proxyUsername = 
+
+# cat=basic/prowl; type=string; label=Proxy password: Password for the proxy
+proxyPassword = 

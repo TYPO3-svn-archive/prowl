@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'prowl'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Prowl - message - box</label>
+			<label index="pi1_plus_wiz_description">Prowl - message box, this content element shows a simple form to push messages to your iPhone</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Prowl - Message Box</label>
+			<label index="pi1_plus_wiz_description">Prowl - Message Box. Dieses Content-Element erzeugt ein einfaches Formular zum senden von Nachrichten an Dein iPhone</label>
+		</languageKey>
+	</data>
+</T3locallang>

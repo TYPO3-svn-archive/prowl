@@ -1,0 +1,153 @@
+<T3DataStructure>
+ <meta type="array">
+  <langDisable>1</langDisable>
+ </meta>
+ <sheets type="array">
+  <sDEF type="array">
+   <ROOT type="array">
+    <TCEforms type="array">
+     <sheetTitle>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.sheet_general</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+    <el type="array">
+     <apiKey type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size>40</size>
+        <max>40</max>
+        <type>input</type>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_apiKey</label>
+      </TCEforms>
+     </apiKey>
+     <providerKey type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size>40</size>
+        <max>40</max>
+        <type>input</type>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_providerKey</label>
+      </TCEforms>
+     </providerKey>
+     <priorities type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>check</type_t3dev>
+        <type>check</type>
+        <default>31</default>
+        <items type="array">
+         <numIndex index="0" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities.I.0</numIndex>
+          <numIndex index="1" type="integer">1</numIndex>
+         </numIndex>
+         <numIndex index="1" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities.I.1</numIndex>
+          <numIndex index="1" type="integer">2</numIndex>
+         </numIndex>
+         <numIndex index="2" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities.I.2</numIndex>
+          <numIndex index="1" type="integer">4</numIndex>
+         </numIndex>
+         <numIndex index="3" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities.I.3</numIndex>
+          <numIndex index="1" type="integer">8</numIndex>
+         </numIndex>
+         <numIndex index="4" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities.I.4</numIndex>
+          <numIndex index="1" type="integer">16</numIndex>
+         </numIndex>
+        </items>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_priorities</label>
+      </TCEforms>
+     </priorities>
+     <default_priority type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>select</type_t3dev>
+        <maxitems>1</maxitems>
+        <size>1</size>
+        <type>select</type>
+        <default>4</default>
+        <items type="array">
+         <numIndex index="0" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority.I.0</numIndex>
+          <numIndex index="1" type="integer">1</numIndex>
+         </numIndex>
+         <numIndex index="1" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority.I.1</numIndex>
+          <numIndex index="1" type="integer">2</numIndex>
+         </numIndex>
+         <numIndex index="2" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority.I.2</numIndex>
+          <numIndex index="1" type="integer">4</numIndex>
+         </numIndex>
+         <numIndex index="3" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority.I.3</numIndex>
+          <numIndex index="1" type="integer">8</numIndex>
+         </numIndex>
+         <numIndex index="4" type="array">
+          <numIndex index="0">LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority.I.4</numIndex>
+          <numIndex index="1" type="integer">16</numIndex>
+         </numIndex>
+        </items>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_default_priority</label>
+      </TCEforms>
+     </default_priority>
+     <application type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size></size>
+        <max></max>
+        <type>input</type>
+         <default>T3Prowl</default>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_application</label>
+      </TCEforms>
+     </application>
+     <event type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size></size>
+        <max></max>
+        <type>input</type>
+        <default>From Website</default>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_event</label>
+      </TCEforms>
+     </event>
+     <messageFormat type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size></size>
+        <max></max>
+        <type>input</type>
+        <default></default>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_messageFormat</label>
+      </TCEforms>
+     </messageFormat>
+     <dateFormat type="array">
+      <TCEforms type="array">
+       <config type="array">
+        <type_t3dev>input</type_t3dev>
+        <size></size>
+        <max></max>
+        <type>input</type>
+        <default></default>
+       </config>
+       <label>LLL:EXT:prowl/locallang_db.php:tt_content.pi_flexform.field_dateFormat</label>
+      </TCEforms>
+     </dateFormat>
+    </el>
+   </ROOT>
+  </sDEF>
+ </sheets>
+</T3DataStructure>

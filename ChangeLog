@@ -1,0 +1,18 @@
+2009-11-12 Frank Nägler  <typo3@naegler.net>
+
+	* create documentation for this extension
+
+2009-11-11 Frank Nägler  <typo3@naegler.net>
+
+	* add TSConfig for t3lib_tcemain hooks
+	* implement hooks for t3lib_tcemain to catch events: new, update and delete
+
+2009-11-08 Frank Nägler  <typo3@naegler.net>
+
+	* implement pi1 as first simple usage example for the prowl service
+	* added some configuration options for extMgm, TypoScript and FlexForm
+
+2009-11-06 Frank Nägler  <typo3@naegler.net>
+
+	* initial code generated with kickstarter
+	* implement T3Service for Prowl messages

@@ -1,0 +1,11 @@
+# Setup
+
+plugin.tx_prowl_pi1 {
+	apiKey =
+	providerKey =
+	application =
+	event =
+	messageFormat =
+	dateFormat =
+	template = EXT:prowl/res/template.html
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_prowl_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="priority">priority</label>
+			<label index="message">message</label>
+			<label index="submit">ProwlIt!!!</label>
+			<label index="message_send_success">your message has been send!</label>
+			<label index="message_send_error">failure!</label>
+			<label index="field_priorities_1">Very low</label>
+			<label index="field_priorities_2">Moderate</label>
+			<label index="field_priorities_4">Normal</label>
+			<label index="field_priorities_8">High</label>
+			<label index="field_priorities_16">Emergency</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="priority">Priorität</label>
+			<label index="message">Nachricht</label>
+			<label index="submit">ProwlIt!!!</label>
+			<label index="message_send_success">Deine Nachricht wurde gesendet!</label>
+			<label index="message_send_error">Fehler! Leider ist ein Fehler aufgetreten!</label>
+			<label index="field_priorities_1">Sehr gering</label>
+			<label index="field_priorities_2">Moderat</label>
+			<label index="field_priorities_4">Normal</label>
+			<label index="field_priorities_8">Hoch</label>
+			<label index="field_priorities_16">Notfall</label>
+		</languageKey>
+	</data>
+</T3locallang>

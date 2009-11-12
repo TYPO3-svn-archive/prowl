@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'prowl'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Prowl - message - box</label>
+			<label index="tt_content.pi_flexform.sheet_general">Settings</label>
+			<label index="tt_content.pi_flexform.field_apiKey">API-Key</label>
+			<label index="tt_content.pi_flexform.field_providerKey">Provider-Key</label>
+			<label index="tt_content.pi_flexform.field_priorities">Available priorities</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.0">Very low</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.1">Moderate</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.2">Normal</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.3">High</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.4">Emergency</label>
+			<label index="tt_content.pi_flexform.field_default_priority">Default priority</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.0">Very Low</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.1">Moderate</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.2">Normal</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.3">High</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.4">Emergency</label>
+			<label index="tt_content.pi_flexform.field_application">Application</label>
+			<label index="tt_content.pi_flexform.field_event">Event</label>
+			<label index="tt_content.pi_flexform.field_messageFormat">Message format</label>
+			<label index="tt_content.pi_flexform.field_dateFormat">Date format [strftime()]</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">Prowl - Message Box</label>
+			<label index="tt_content.pi_flexform.sheet_general">Einstellungen</label>
+			<label index="tt_content.pi_flexform.field_apiKey">API-Key</label>
+			<label index="tt_content.pi_flexform.field_providerKey">Provider-Key</label>
+			<label index="tt_content.pi_flexform.field_priorities">Verfügbare Prioritäten</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.0">Sehr gering</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.1">Moderat</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.2">Normal</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.3">Hoch</label>
+			<label index="tt_content.pi_flexform.field_priorities.I.4">Notfall</label>
+			<label index="tt_content.pi_flexform.field_default_priority">Standard Priorität</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.0">Sehr gering</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.1">Moderat</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.2">Normal</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.3">Hoch</label>
+			<label index="tt_content.pi_flexform.field_default_priority.I.4">Notfall</label>
+			<label index="tt_content.pi_flexform.field_application">Applikation</label>
+			<label index="tt_content.pi_flexform.field_event">Event</label>
+			<label index="tt_content.pi_flexform.field_messageFormat">Message format</label>
+			<label index="tt_content.pi_flexform.field_dateFormat">Date format [strftime()]</label>
+		</languageKey>
+	</data>
+</T3locallang>

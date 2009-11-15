@@ -88,10 +88,10 @@ class tx_prowl_pi1 extends tslib_pibase {
 	
 	function getConfigurationValue($key) {
 		$value = $this->extConfiguration[$key];
-		if (isset($this->conf[$key])) {
+		if (isset($this->conf[$key]) && strlen($this->conf[$key]) > 0) {
 			$value = $this->conf[$key];
 		}
-		if (isset($this->lConf[$key])) {
+		if (isset($this->lConf[$key]) && strlen($this->lConf[$key]) > 0) {
 			$value = $this->lConf[$key];
 		}
 		return $value;

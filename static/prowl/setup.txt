@@ -5,7 +5,7 @@ plugin.tx_prowl_pi1 {
 	providerKey =
 	application =
 	event =
-	messageFormat =
+	messageFormat = ###MESSAGE### - ###DATE### ###URL###
 	dateFormat =
 	template = EXT:prowl/res/template.html
 }
